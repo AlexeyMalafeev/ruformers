@@ -32,20 +32,19 @@
 ### ruBERT (Сбер)
 
 ### ruBERT-tiny
-<<<<<<< HEAD
-### rudialogpt3
-DeepPavlov/rudialogpt3_medium_based_on_gpt2_v2
-=======
 
->>>>>>> a3dda4010607b77fb7802bc762ec37a1161b897e
+### rudialogpt3
+
+DeepPavlov/rudialogpt3_medium_based_on_gpt2_v2
+
 ### ruGPT-3
 
 ### ruGPT-3.5
 
 ### ru-longformer-tiny-16384
 
-Ссылки: [HuggingFace](https://huggingface.co/kazzand/ru-longformer-tiny-16384), 
-[Хабр](https://habr.com/ru/companies/ru_mts/articles/761116/), 
+Ссылки: [HuggingFace](https://huggingface.co/kazzand/ru-longformer-tiny-16384),
+[Хабр](https://habr.com/ru/companies/ru_mts/articles/761116/),
 [Colab](https://colab.research.google.com/drive/1qownYBbct6sZkP3kACXeSDijg0Q1nxBo?usp=sharing)  
 Опубликована: сентябрь 2023  
 Архитектура: энкодер  
