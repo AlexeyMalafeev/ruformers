@@ -96,7 +96,7 @@
 
 ### rudialogpt3
 
-DeepPavlov/rudialogpt3_medium_based_on_gpt2_v2
+DeepPavlov/rudialogpt3_medium_based_on_gpt2_v2  
 **Описание**:  
 **Ссылки**:  
 **Опубликована**:  
@@ -110,14 +110,15 @@ DeepPavlov/rudialogpt3_medium_based_on_gpt2_v2
 
 ### ruGPT-3
 
-**Описание**:  
-**Ссылки**:  
-**Опубликована**:  
-**Архитектура**:  
-**Количество параметров**:  
+**Описание**: семейство генеративных моделей, основанных на архитектуре GPT-2 и обученных на русскоязычных данных  
+**Ссылки**: [HuggingFace](https://huggingface.co/ai-forever/rugpt3large_based_on_gpt2),
+[GitHub](https://github.com/ai-forever/ru-gpts?ysclid=lo5qq6e7w5304929210)  
+**Опубликована**: октябрь 2020  
+**Архитектура**: decoder  
+**Количество параметров**: 1.3B, 760M, 355M, 125M  
 **На диске**:  
 **Длина контекста**:  
-**Применение**:  
+**Применение**: генерация текстов на русском языке, чатботы-"болталки"  
 
 ---
 
