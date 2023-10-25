@@ -37,6 +37,8 @@
 ### ruBERT (DeepPavlov)
 ### ruBERT (Сбер)
 ### ruBERT-tiny
+### rudialogpt3
+DeepPavlov/rudialogpt3_medium_based_on_gpt2_v2
 ### ruGPT-3
 ### ruGPT-3.5
 ### ruRoBERTa
