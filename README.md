@@ -43,14 +43,14 @@ DeepPavlov/rudialogpt3_medium_based_on_gpt2_v2
 
 ### ru-longformer-tiny-16384
 
-Ссылки: [HuggingFace](https://huggingface.co/kazzand/ru-longformer-tiny-16384),
+**Ссылки**: [HuggingFace](https://huggingface.co/kazzand/ru-longformer-tiny-16384),
 [Хабр](https://habr.com/ru/companies/ru_mts/articles/761116/),
 [Colab](https://colab.research.google.com/drive/1qownYBbct6sZkP3kACXeSDijg0Q1nxBo?usp=sharing)  
-Опубликована: сентябрь 2023  
-Архитектура: энкодер  
-Особенности: маленькая модель на основе cointegrated/rubert-tiny2, но с длиной контекста до 16 тысяч токенов  
-Количество параметров: 34,6М  
-Применение: задачи классификации длинных текстов  
+**Опубликована**: сентябрь 2023  
+**Архитектура**: энкодер  
+**Особенности**: маленькая модель на основе cointegrated/rubert-tiny2, но с длиной контекста до 16 тысяч токенов  
+**Количество параметров**: 34,6М  
+**Применение**: задачи классификации длинных текстов  
 
 ### ruRoBERTa
 
