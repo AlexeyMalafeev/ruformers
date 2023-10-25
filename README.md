@@ -25,16 +25,16 @@
 
 ## Список трансформеров для русского языка
 
-### FRED-T5-1.7B
+### FRED-T5 (1.7B и large)
 
-**Ссылки**: [HuggingFace](https://huggingface.co/ai-forever/FRED-T5-1.7B),
-[Хабр](https://habr.com/ru/companies/sberdevices/articles/730088/),
-[Colab]()  
+**Описание**: семейство моделей (1.7B и large), похожих на ruT5, но с использованием смеси денойзеров (mixture of denoisers)  
+**Ссылки**: [HuggingFace 1](https://huggingface.co/ai-forever/FRED-T5-1.7B),
+[HuggingFace 2](https://huggingface.co/ai-forever/FRED-T5-large),
+[Хабр](https://habr.com/ru/companies/sberdevices/articles/730088/)  
 **Опубликована**: апрель 2023  
 **Архитектура**: энкодер-декодер  
-**Особенности**: как ruT5, но с использованием смеси денойзеров (mixture of denoisers)  
-**Количество параметров**: 1.74B  
-**На диске**: 6.96G  
+**Количество параметров**: 1.74B, 820M   
+**На диске**: 6.96G, 3.28G  
 **Длина контекста**: используется относительное позиционное кодирование, длина контекста ограничена лишь доступным объемом памяти  
 **Применение**: сильная модель для решения задач вида "text-to-text" на русском языке  
 
@@ -46,12 +46,12 @@
 
 ### ruBERT-tiny2
 
+**Описание**: маленький и быстрый BERT для русского языка  
 **Ссылки**: [HuggingFace](https://huggingface.co/cointegrated/rubert-tiny2),
 [Хабр](https://habr.com/ru/articles/669674/),
 [Colab](https://colab.research.google.com/drive/1mSWfIQ6PIlteLVZ9DKKpcorycgLIKZLf?usp=sharing)  
 **Опубликована**: июнь 2022  
 **Архитектура**: энкодер  
-**Особенности**: маленький и быстрый BERT для русского языка  
 **Количество параметров**: 29M  
 **На диске**: 118М  
 **Длина контекста**: 2048 токенов  
@@ -67,12 +67,12 @@ DeepPavlov/rudialogpt3_medium_based_on_gpt2_v2
 
 ### ru-longformer-tiny-16384
 
+**Описание**: маленькая модель на основе cointegrated/rubert-tiny2, но с длиной контекста до 16 тысяч токенов  
 **Ссылки**: [HuggingFace](https://huggingface.co/kazzand/ru-longformer-tiny-16384),
 [Хабр](https://habr.com/ru/companies/ru_mts/articles/761116/),
 [Colab](https://colab.research.google.com/drive/1qownYBbct6sZkP3kACXeSDijg0Q1nxBo?usp=sharing)  
 **Опубликована**: сентябрь 2023  
 **Архитектура**: энкодер  
-**Особенности**: маленькая модель на основе cointegrated/rubert-tiny2, но с длиной контекста до 16 тысяч токенов  
 **Количество параметров**: 34.6М  
 **На диске**: 139М  
 **Длина контекста**: 16384 токенов  
