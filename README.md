@@ -32,7 +32,7 @@
 **Ссылки**: [HF 1.7B](https://huggingface.co/ai-forever/FRED-T5-1.7B),
 [HF large](https://huggingface.co/ai-forever/FRED-T5-large),
 [Хабр](https://habr.com/ru/companies/sberdevices/articles/730088/),
-[Arxiv](https://arxiv.org/abs/2309.10931)    
+[Arxiv](https://arxiv.org/abs/2309.10931)  
 **Опубликована**: апрель 2023  
 **Архитектура**: энкодер-декодер  
 **Количество параметров**: 1.74B, 820M  
@@ -52,7 +52,7 @@
 **Опубликована**: 2021  
 **Архитектура**: энкодер  
 **Количество параметров**: 178M, 427M  
-**На диске**: 716M,   
+**На диске**: 716M, 1.71G  
 **Длина контекста**: 512 токенов  
 **Применение**: задачи классификации и сравнения текстов; следует отметить, что ruRoBERTa-large обычно показывает более хорошие результаты по сравнению с ruBERT  
 
@@ -76,12 +76,15 @@
 ### ruGPT-3
 
 **Описание**: семейство генеративных моделей, основанных на архитектуре GPT-2 и обученных на русскоязычных данных  
-**Ссылки**: [HuggingFace](https://huggingface.co/ai-forever/rugpt3large_based_on_gpt2),
-[GitHub](https://github.com/ai-forever/ru-gpts?ysclid=lo5qq6e7w5304929210)  
+**Ссылки**: [HF small](https://huggingface.co/ai-forever/rugpt3small_based_on_gpt2),
+[HF medium](https://huggingface.co/ai-forever/rugpt3medium_based_on_gpt2),
+[HF large](https://huggingface.co/ai-forever/rugpt3large_based_on_gpt2),
+[GitHub](https://github.com/ai-forever/ru-gpts?ysclid=lo5qq6e7w5304929210),
+[Arxiv](https://arxiv.org/abs/2309.10931)  
 **Опубликована**: октябрь 2020  
-**Архитектура**: decoder  
+**Архитектура**: декодер  
 **Количество параметров**: 1.3B, 760M, 355M, 125M  
-**На диске**:  
+**На диске**: ?, ?, 1.73G, 551M  
 **Длина контекста**:  
 **Применение**: генерация текстов на русском языке, чатботы-"болталки"  
 
@@ -89,14 +92,31 @@
 
 ### ruGPT-3.5
 
-**Описание**:  
-**Ссылки**:  
-**Опубликована**:  
-**Архитектура**:  
+**Описание**: довольно большая генеративная модель (13 миллиардов параметров), предобученная на 300 + 100 гигабайтах русскоязычных данных  
+**Ссылки**: [HuggingFace](https://huggingface.co/ai-forever/ruGPT-3.5-13B), 
+[Хабр](https://habr.com/ru/companies/sberbank/articles/746736/),
+[Colab](https://colab.research.google.com/drive/1KyDX_D-rsKN8qpIvo3YMXSYmT3poaBGN)  
+**Опубликована**: июль 2023  
+**Архитектура**: декодер  
+**Количество параметров**: 13B  
+**На диске**:  
+**Длина контекста**: 2048 токенов  
+**Применение**: сложные задачи генерации и понимания текстов на русском языке  
+
+---
+
+### RuLeanALBERT
+
+**Описание**: BERT-подобная модель, обученная с использованием таких техник как weight sharing, PreNorm, SmallInit, RoPE и GEGLU  
+**Ссылки**: [HuggingFace](https://huggingface.co/yandex/RuLeanALBERT),
+[GitHub](https://github.com/yandex-research/RuLeanALBERT),
+[Хабр](https://habr.com/ru/companies/yandex/articles/688234/)  
+**Опубликована**: сентябрь 2022  
+**Архитектура**: энкодер  
 **Количество параметров**:  
 **На диске**:  
 **Длина контекста**:  
-**Применение**:  
+**Применение**: задачи классификации и сравнения текстов, но в "ванильном" transformers не заведётся: нужно клонировать репозиторий авторов с реализациями кастомных классов  
 
 ---
 
@@ -118,7 +138,8 @@
 ### ruRoBERTa-large
 
 **Описание**:  
-**Ссылки**: [Хабр](https://habr.com/ru/companies/sberbank/articles/567776/)  
+**Ссылки**: [Хабр](https://habr.com/ru/companies/sberbank/articles/567776/),
+[Arxiv](https://arxiv.org/abs/2309.10931)  
 **Опубликована**:  
 **Архитектура**:  
 **Количество параметров**:  
@@ -131,20 +152,8 @@
 ### ruT5
 
 **Описание**:  
-**Ссылки**: [Хабр](https://habr.com/ru/companies/sberbank/articles/567776/)  
-**Опубликована**:  
-**Архитектура**:  
-**Количество параметров**:  
-**На диске**:  
-**Длина контекста**:  
-**Применение**:  
-
----
-
-### Siberian FRED-T5
-
-**Описание**:  
-**Ссылки**:  
+**Ссылки**: [Хабр](https://habr.com/ru/companies/sberbank/articles/567776/),
+[Arxiv](https://arxiv.org/abs/2309.10931)  
 **Опубликована**:  
 **Архитектура**:  
 **Количество параметров**:  
